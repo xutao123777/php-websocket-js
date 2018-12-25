@@ -5,8 +5,11 @@ PHP操作websocket
 
 
 Step #1：只能通过命令行调用PHP.exe开启websocket程序服务
+
 Step #2：能否通过web开启websocket服务
+
 不建议使用web开启websocket服务, 原因有下：
+
 1、因为端口不能重复打开, 所以你必须保证 websocket.php 只会被运行一次
 
 2、web 方式下的 php 是超时设置有效的, 当然你需要设置成永不超时
